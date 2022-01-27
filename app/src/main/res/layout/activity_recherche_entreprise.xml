@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Files.RechercheNomActivity">
+
+    <TextView
+        android:id="@+id/tvtitlen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="10dp"
+        android:text="Trouver une entreprise"
+        android:gravity="center"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldQN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtitlen"
+        android:layout_margin="10dp"
+        android:hint="@string/ville_nom_d_entrperise">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtQueryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldCP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/code_postal"
+        android:layout_margin="20dp"
+        android:layout_below="@id/textFieldQN">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="5"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textFieldCD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/code_departement"
+        android:layout_margin="20dp"
+        android:layout_below="@id/textFieldCP">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtCD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbSearchNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/ok"
+        android:src="@android:drawable/ic_menu_search"
+        app:backgroundTint="#EA4739" />
+
+</RelativeLayout>

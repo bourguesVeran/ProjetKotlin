@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ProjetKotlin</string>
+
+    <string name="resultRecherhce">Résultat de votre recherche</string>
+    <string name="date">Date de la création de l\'entreprise : %s</string>
+    <string name="name">Nom : %s</string>
+    <string name="adresse">Adresse : %s</string>
+    <string name="libact">Activité : %s</string>
+    <string name="cp">Code Postal : %s</string>
+    <string name="historique">Historique</string>
+    <string name="recherche_depuis_votre_historique">Recherche depuis votre Historique</string>
+    <string name="vos_recherche_d_entreprise">Vos recherches d\'entreprise</string>
+    <string name="saisir_votre_recherche">Saisir votre Recherche</string>
+    <string name="ville_nom_d_entrperise">Ville, Nom d\'entrperise, …</string>
+    <string name="recherche_avanc_e">Recherche avancée</string>
+    <string name="reduire_recherche_avanc_e">Réduire la recherche avancée</string>
+    <string name="code_postal">Code Postal</string>
+    <string name="code_departement">Code Département</string>
+    <string name="ok">OK</string>
+    <string name="findme">Bienvenue sur FindUs</string>
+    <string name="findmeT">FindUs</string>
+    <string name="count_historique">Count Historique</string>
+    <string name="count_recherche">Count Recherche</string>
+    <string name="count_historique_result">Count historique Result</string>
+    <string name="actif">Active</string>
+    <string name="effectuer_une_recherche_par">Effectuer une recherche par :</string>
+    <string name="ville_entrperise">Ville, Entrperise, ...</string>
+    <string name="oui">Y aller</string>
+    <string name="activit_e_code_naf">Activitée, Code NAf, ...</string>
+    <string name="recherche_par_activit">Recherche par activitée</string>
+    <string name="recherche_par_code_naf">Recherche par Code NAF</string>
+    <string name="s_lectionner_dans_la_liste_votre_recherche">Sélectionner dans la liste votre recherche</string>
+    <string name="nom">Nom</string>
+    <string name="date_d_ajout">Date d\'ajout</string>
+    <string name="query_extend">query extend</string>
+    <string name="nom_d_entreprise">Nom d\'entreprise</string>
+    <string name="activit">Activité</string>
+    <string name="appwidget_text">Nombre de Recherche</string>
+    <string name="appwidget_texte">Nombre d\'entreprise vue</string>
+    <string name="add_widget">Add widget</string>
+    <string name="vue_de_l_entreprise">Vue de l\'entreprise</string>
+    <string name="vos_recherhches">Vos recherhches</string>
+
+</resources>

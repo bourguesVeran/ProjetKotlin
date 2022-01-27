@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Files.HistoryActivity">
+
+    <TextView
+        android:id="@+id/tvhistorique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vos_recherhches"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvcounthistorique"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count_historique"
+        android:textSize="25sp"
+        android:layout_below="@id/tvhistorique"
+        android:background="#EA4739"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"
+        android:gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RctHistorique"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvcounthistorique"/>
+
+
+
+
+</RelativeLayout>

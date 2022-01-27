@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:layout_margin="20dp"
+        android:text="Rechercher une entreprise"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvcountRecherche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count_recherche"
+        android:textSize="25sp"
+        android:background="#EA4739"
+        android:textColor="@color/white"
+        android:layout_below="@id/tvtitle"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/lstRecherche"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvcountRecherche"/>
+
+
+</RelativeLayout>
