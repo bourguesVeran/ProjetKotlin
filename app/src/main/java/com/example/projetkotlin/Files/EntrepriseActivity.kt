@@ -64,14 +64,6 @@ class EntrepriseActivity : AppCompatActivity() {
                 })
             }
 
-            btPartageEntreprise.setOnClickListener {
-                val intent = Intent(Intent.ACTION_SEND)
-                intent.type = "text/plain"
-                intent.putExtra(Intent.EXTRA_TEXT, "L'entreprise : ${entreprise.nom_raison_sociale} \nCode postal : ${entreprise.code_postal}\nActivité : ${entreprise.libelle_activite_principale}")
-                val intentShare = Intent.createChooser(intent, entreprise.nom_raison_sociale)
-                startActivity(intentShare)
-            }
-
         }
 
     }
